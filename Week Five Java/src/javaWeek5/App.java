@@ -28,7 +28,6 @@ public class App {
 		// Test case 4 for AsteriskLogger and SpacedLogger classes
 		testCases(asterLog, testStrFour);
 		testCases(spaceLog, testStrFour);
-		
 				
 	}
 	

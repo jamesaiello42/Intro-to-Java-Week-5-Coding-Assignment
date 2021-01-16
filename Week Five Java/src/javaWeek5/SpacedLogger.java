@@ -29,14 +29,13 @@ public class SpacedLogger implements Logger {
 		// Then loop through passed in string to have space between every char
 		for (int i = 0; i < info.length(); i++)
 		{
-			// This statement is prevent having a space at the end of the printed string
+			// This statement is prevented from having a space at the end of the printed string
 			if (i != info.length() - 1)
 				System.out.print(info.charAt(i) + " ");
 			else 
 				System.out.print(info.charAt(i));
 		}
-		
-		
+			
 		// Advance by one line
 		System.out.print("\n");
 		
