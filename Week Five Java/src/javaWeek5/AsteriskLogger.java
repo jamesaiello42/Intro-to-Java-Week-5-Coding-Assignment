@@ -11,7 +11,7 @@ public class AsteriskLogger implements Logger {
 	@Override
 	public void Error(String info) {
 		// These variables are needed to correctly output the box around the error message
-		String error = "Error: ";
+		String error = "ERROR: ";
 		int length = 6 + info.length() + error.length();
 		String box = "";
 		

@@ -23,7 +23,7 @@ public class SpacedLogger implements Logger {
 	@Override
 	public void Error(String info) {
 		// Print that an error has occurred
-		String error = "Error: ";
+		String error = "ERROR: ";
 		System.out.print(error);
 		
 		// Then loop through passed in string to have space between every char
